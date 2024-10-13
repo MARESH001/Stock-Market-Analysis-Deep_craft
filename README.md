@@ -72,4 +72,3 @@ This project aims to provide insights into stock price prediction using machine 
 
 ---
 
-Feel free to modify any sections or add additional details specific to your project! If you need further assistance or adjustments, let me know!
