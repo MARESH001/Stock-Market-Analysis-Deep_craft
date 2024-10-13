@@ -1,5 +1,5 @@
 # Stock-Market-Analysis-Deep_craft
-# Stock Price Prediction
+# NTT'S Stock Price Prediction
 
 ## Overview
 
@@ -7,14 +7,23 @@ Stock (also known as equity) is a security that represents the ownership of a fr
 
 Stock prices change every day due to market forces. If more people want to buy a stock (demand) than sell it (supply), then the price moves up. Conversely, if more people want to sell a stock than buy it, there would be greater supply than demand, and the price would fall. Understanding supply and demand is easy. However, predicting how stock prices will change is complex and uncertain. While some believe that it's not possible to predict price changes, others think that analyzing charts and past movements can help determine when to buy and sell. One certainty is that stocks are volatile and can change in price rapidly.
 
-## Understanding the Problem Statement
+# Problem Statement
 
-Broadly, stock market analysis is divided into two parts: **Fundamental Analysis** and **Technical Analysis**.
+### Data Understanding and EDA
+- Conduct exploratory analysis of NTT's stock price data to identify trends, seasonal patterns, and outliers.
+- Formulate hypotheses about the data to guide further modeling efforts.
 
-- **Fundamental Analysis** involves analyzing a company’s future profitability based on its current business environment and financial performance.
-- **Technical Analysis** focuses on reading charts and using statistical figures to identify trends in the stock market.
+### Data Preprocessing and Feature Engineering
+- Handle missing values and normalize data.
+- Create new features to enhance model performance.
 
-Our focus will be on technical analysis and visualization. We’ll be using a dataset from Stock Prices for training and testing.
+### Model Selection and Training
+- Choose suitable forecasting models based on data characteristics.
+- Justify model choice based on its ability to capture trends and patterns in stock prices.
+
+### Model Evaluation and Improvement
+- Evaluate model performance.
+- Iterate on the model by refining features or adjusting parameters to improve accuracy.
 
 ## Implementation Steps
 
